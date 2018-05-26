@@ -1,0 +1,64 @@
+body {
+    background: url("../images/vintage-concrete.png");
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* This is the display for Desktop */
+@media screen and (max-width: 980px) {
+    
+}
+
+/* This is the display for Tablet */
+@media screen and (max-width: 768px){
+
+}
+
+/*This is the display for Phone */
+@media screen and (max-width: 640px) {
+    .navbar {
+        position: static;
+        margin: 0;
+    }
+
+    #header {
+        width: 100%;
+        left: 0;
+      
+    }
+
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav-link {
+        margin: 0 auto;
+    }
+
+    #footer {
+        position: static;
+    }    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
